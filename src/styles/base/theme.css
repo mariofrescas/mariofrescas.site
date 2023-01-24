@@ -1,0 +1,22 @@
+:root {
+  --color--A: rgba(255, 255, 255, 1);
+  --color--B: rgba(255, 255, 255, 0.05);
+  --color--C: rgba(223, 223, 223, 1);
+  --color--D: rgba(124, 153, 255, 1);
+  --color--E: rgba(124, 191, 255, 1);
+  --color--F: rgba(63, 81, 181, 1);
+  --color--G: rgba(48, 62, 139, 1);
+  --color--H: rgba(181, 63, 63, 1);
+  --color--I: rgba(157, 157, 157, 1);
+  --color--J: rgba(102, 102, 102, 1);
+  --color--K: rgba(102, 102, 102, 0.1);
+  --color--L: rgba(66, 66, 66, 1);
+  --color--M: rgba(60, 60, 60, 0.8);
+  --color--N: rgba(60, 60, 60, 1);
+  --color--O: rgba(47, 47, 47, 1);
+  --color--P: rgba(42, 42, 42, 1);
+  --color--Q: rgba(0, 0, 0, 1);
+  --color--R: rgba(0, 0, 0, 0.25);
+
+  --footer--color: var(--color--J);
+}

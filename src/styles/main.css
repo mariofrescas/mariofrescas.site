@@ -3,3 +3,9 @@
 @import 'base/theme.css';
 @import 'base/layout.css';
 @import 'base/typography.css';
+
+@import 'var/general.css';
+
+@import 'components/root-wrapper.css';
+@import 'components/title.css';
+@import 'components/subtitle.css';

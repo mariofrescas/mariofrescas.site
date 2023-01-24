@@ -1,0 +1,17 @@
+.root-wrapper {
+  display: grid;
+  grid-template-rows: min-content auto;
+  grid-template-areas:
+    'header'
+    'content'
+  ;
+}
+
+.root-wrapper__header {
+  grid-area: header;
+}
+
+.root-wrapper__main-wrapper {
+  grid-area: content;
+  overflow: auto;
+}

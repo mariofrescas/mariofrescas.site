@@ -1,14 +1,20 @@
 .subtitle, .subtitle__emphasis {
   font: 1.25rem 'Robot-Regular', sans-serif;
-  line-height: 1.8rem;
+  line-height: 2rem;
   text-shadow: var(--text-shadow);
 }
 
 .subtitle {
-  color: var(--subtitle--color);
   text-align: center;
+  color: var(--subtitle--color);
 }
 
 .subtitle__emphasis {
   color: var(--subtitle__emphasis--color);
+}
+
+@media (min-width: 700px) {
+  .subtitle__emphasis {
+    white-space: nowrap;
+  }
 }

@@ -1,0 +1,26 @@
+.home-section {
+  display: grid;
+}
+
+.home-section__title {
+  place-self: center;
+}
+
+.home-section__subtitle {
+  padding: 0 2.5rem;
+}
+
+.home-section__subtitle span span {
+  display: none;
+}
+
+@media (min-width: var(--breakpoint--tablet)) {
+  .home-section__subtitle {
+    display: grid;
+    grid-auto-rows: min-content;
+  }
+
+  .home-section__subtitle span span {
+    display: unset;
+  }
+}

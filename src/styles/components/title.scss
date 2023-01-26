@@ -1,9 +1,9 @@
 .title {
   color: var(--title--color);
+  text-shadow: var(--text-shadow);
 }
 
 .title--h1 {
   font: 5.556rem 'Simonetta-Regular', cursive;
   text-align: center;
-  text-shadow: var(--text-shadow);
 }

@@ -1,13 +1,13 @@
-@import 'base/base.css';
-@import 'base/reset.css';
-@import 'base/theme.css';
-@import 'base/layout.css';
-@import 'base/typography.css';
+@use 'base/base';
+@use 'base/reset';
+@use 'base/theme';
+@use 'base/layout';
+@use 'base/typography';
 
-@import 'var/general.css';
+@use 'var/general';
 
-@import 'components/root-wrapper.css';
-@import 'components/main-section.css';
-@import 'components/home-section.css';
-@import 'components/title.css';
-@import 'components/subtitle.css';
+@use 'components/root-wrapper';
+@use 'components/main-section';
+@use 'components/home-section';
+@use 'components/title';
+@use 'components/subtitle';

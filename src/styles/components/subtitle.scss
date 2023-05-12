@@ -1,7 +1,10 @@
+@use '../var/general' as var;
+// TODO: quitar ../ y pensar si renombrar carpeta var y archivo general
+// y buscar en lugeran como se llama 'var' alla para ponerlo aqui
 .subtitle, .subtitle__emphasis {
   font: 1.25rem 'Robot-Regular', sans-serif;
   line-height: 2rem;
-  text-shadow: var(--text-shadow);
+  text-shadow: var.$text-shadow;
 }
 
 .subtitle {
@@ -12,7 +15,7 @@
 .subtitle__emphasis {
   color: var(--subtitle__emphasis--color);
 }
-
+// TODO: Remplazar 700px por variable scss
 @media (min-width: 700px) {
   .subtitle__emphasis {
     white-space: nowrap;

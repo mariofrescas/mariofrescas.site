@@ -14,7 +14,8 @@
   display: none;
 }
 
-@media (min-width: var(--breakpoint--tablet)) {
+// TODO: Remplazar 700px por variable scss
+@media (min-width: 700px) {
   .home-section__subtitle {
     display: grid;
     grid-auto-rows: min-content;

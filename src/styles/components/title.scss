@@ -1,6 +1,9 @@
+@use '../var/general' as var;
+// TODO: quitar ../ y pensar si renombrar carpeta var y archivo general
+// y buscar en lugeran como se llama 'var' alla para ponerlo aqui
 .title {
   color: var(--title--color);
-  text-shadow: var(--text-shadow);
+  text-shadow: var.$text-shadow;
 }
 
 .title--h1 {
